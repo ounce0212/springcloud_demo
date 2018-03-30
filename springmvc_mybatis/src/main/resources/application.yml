@@ -2,10 +2,10 @@ spring:
   application:
     name: springmvc_mybatis
   datasource:
-    url: jdbc:mysql://119.27.160.100:3306/shenniu_course?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://119.27.1.1:3306/shenniu_course?useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: password
+    password: password1
 
 server:
   port: 7509
