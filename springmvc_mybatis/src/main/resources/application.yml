@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: springmvc_mybatis
+  datasource:
+    url: jdbc:mysql://119.27.160.100:3306/shenniu_course?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: password
+
+server:
+  port: 7509
+mybatis:
+  type-aliases-package: com.example.springmvc_mybatis.entity
+#  configuration:
+#    map-underscore-to-camel-case: true
+
+#控制台输出sql
+logging:
+  level:
+    com.example.springmvc_mybatis.dao: debug
+
+
+
+
+
